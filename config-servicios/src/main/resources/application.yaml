@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server: 
+        git:
+          default-label: config-servicios
+          uri: https://github.com/martinema/microserviciosSpringBoot
+          search-paths: config-data
+  application:
+    name: config-servicios
+  
