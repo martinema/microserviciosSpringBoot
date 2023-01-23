@@ -15,7 +15,7 @@ import com.coche.servicio.entidades.Coche;
 import com.coche.servicio.servicios.CocheServicio;
 
 @RestController
-@RequestMapping("/Coche")
+@RequestMapping("/coche")
 public class CocheControlador {
 
 		 @Autowired

@@ -15,7 +15,7 @@ import com.moto.servicio.entidades.Moto;
 import com.moto.servicio.servicios.MotoServicio;
 
 @RestController
-@RequestMapping("/Moto")
+@RequestMapping("/moto")
 public class MotoControlador {
 
 	@Autowired
