@@ -29,12 +29,12 @@ public class UsuarioService {
 
 //Ini-RestTempleate
 	public List<Coche> getCoches(int usuarioId) {
-		List<Coche> coches = restTemplate.getForObject("http://localhost:8082/Coche/usuario/" + usuarioId, List.class);
+		List<Coche> coches = restTemplate.getForObject("http://coche-servicio/coche/usuario/" + usuarioId, List.class);
 		return coches;
 	}
 
 	public List<Moto> getMotos(int usuarioId) {
-		List<Moto> motos = restTemplate.getForObject("http://localhost:8083/Moto/usuario/" + usuarioId, List.class);
+		List<Moto> motos = restTemplate.getForObject("http://moto-servicio/moto/usuario/" + usuarioId, List.class);
 		return motos;
 	}
 
