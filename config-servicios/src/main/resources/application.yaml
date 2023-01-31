@@ -5,8 +5,10 @@ spring:
     config:
       server: 
         git:
-          default-label: config-servicios
-          uri: https://github.com/martinema/microserviciosSpringBoot
+          default-label: eureka
+          uri: https://github.com/martinema/microserviciosSpringBoot.git
+          username: martinema
+          password: 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
           search-paths: config-data
   application:
     name: config-servicios
