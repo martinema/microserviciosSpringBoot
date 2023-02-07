@@ -1,7 +1,7 @@
 spring:
   application:
-    name: usuario-servicio
+    name: moto-servicio
   cloud:
     config:
       enabled: true
-      uri: http://localhost:8080
+      uri: http://localhost:8081
