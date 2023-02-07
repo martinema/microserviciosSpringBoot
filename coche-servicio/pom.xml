@@ -65,7 +65,6 @@
 			<artifactId>zipkin-reporter-brave</artifactId>
 		</dependency>
 	</dependencies>
-	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
