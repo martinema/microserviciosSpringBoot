@@ -5,7 +5,7 @@ spring:
     config:
       server: 
         git:
-          default-label: circuit-breaker
+          default-label: zipkin-sleuth
           uri: https://github.com/martinema/microserviciosSpringBoot.git
           username: martinema
           password: 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
